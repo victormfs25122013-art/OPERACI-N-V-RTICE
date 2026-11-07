@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  color-scheme: dark;
+}
+
+.font-tactical {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.font-mono-numbers {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* FPS Canvas & Screen isolation */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #080c10;
+  color: #e2e8f0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+canvas {
+  display: block;
+  outline: none;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "OPERACIÓN VÉRTICE - Tactical FPS 5v5",
+  "description": "Shooter táctico en primera persona por rondas 5v5 con agentes, armas originales, simulación 3D jugable y suite completa de proyecto Godot 4.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
